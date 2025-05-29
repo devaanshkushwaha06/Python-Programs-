@@ -1,0 +1,5 @@
+file=open("file1.txt","rb")
+print("Position of the file pointer before reading is : ", file.tell())
+print(file.read(10))
+print("Position of the file pointer after reading is : ", file.tell())
+print("Setting 3 bytes from")
